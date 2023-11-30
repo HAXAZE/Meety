@@ -61,8 +61,4 @@ Check out the live demo of Meety: [Meety Live Demo](https://meety-6q8l.onrender.
 
 If you encounter any issues during the setup or while using Meety locally, please [open an issue](https://github.com/HAXAZE/Meety/issues) on GitHub.
 
-## License
 
-Meety is licensed under the [MIT License](LICENSE).
-
-Thank you for choosing Meety! Happy collaborating!
