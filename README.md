@@ -51,7 +51,7 @@ Check out the live demo of Meety: [Meety Live Demo](https://meety-6q8l.onrender.
     Open your web browser and go to [http://localhost:3000](http://localhost:3000).
 
 6. **Start a Meeting:**
-    - Click on the "Start Meeting" button to initiate a new meeting.
+    - Click on the "Create Room" button to initiate a new meeting.
     - Share the generated code with others to invite them to the meeting.
 
 7. **Join the Meeting:**
