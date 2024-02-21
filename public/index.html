@@ -10,11 +10,37 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/6510466b6c.js" crossorigin="anonymous"></script>
     <link id="favicon" rel="shortcut icon" href="logomeety.png" type="image/x-png">
+    <style>
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            color: #4ecca3; 
+        }
+        .developed-by {
+            font-size: 0.8rem;
+            color: #4ecca3; 
+            font-style: italic;
+            font-weight: bold;
+        }
+        .clickable {
+            cursor: pointer;
+            text-decoration: underline;
+            color: inherit; 
+        }
+    </style>
 </head>
 
 <body>
     <navbar>
-        <div class="logo" >Meety 👨‍💻</div>
+        <div class="logo-container">
+            <div class="logo" style="color: #4ecca3;">Meety 👨‍💻</div>
+            <div class="developed-by" style="color: #4ecca3;">Developed by <a class="clickable" href="https://www.linkedin.com/in/haxaze/" target="_blank">Sahil</a></div>
+        </div>
     </navbar>
 
     <div class="main">
@@ -37,10 +63,7 @@
         </div>
     </div>
 
-    
-
     <script src="js/landing.js"></script>
 </body>
 
 </html>
-
