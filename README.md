@@ -4,7 +4,7 @@ Welcome to Meety, a simple and efficient web application designed for seamless o
 
 ## Live Demo
 
-Check out the live demo of Meety: [Meety Live Demo](https://meety-6q8l.onrender.com/)
+Check out the live demo of Meety: [Meety Live ](https://meety-6q8l.onrender.com/)
 
 ## Features
 
