@@ -402,7 +402,6 @@ function handleVideoAnswer(answer, sid) {
     connections[sid].setRemoteDescription(ans);
 }
 
-//Thanks to (https://github.com/miroslavpejic85) for ScreenShare Code
 
 screenShareButt.addEventListener('click', () => {
     screenShareToggle();

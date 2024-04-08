@@ -9,6 +9,7 @@ const app = express();
 const server = http.createServer(app);
 
 const io = socketio(server);
+moment.tz.setDefault('Asia/Kolkata'); // Set default timezone to IST
 
 app.use(express.static(path.join(__dirname, 'public')));
 
