@@ -1,7 +1,7 @@
 const path = require('path');
 const express = require('express')
 const http = require('http')
-const moment = require('moment');
+const moment = require('moment-timezone'); // Import moment-timezone
 const socketio = require('socket.io');
 const PORT = process.env.PORT || 3000;
 
@@ -9,6 +9,7 @@ const app = express();
 const server = http.createServer(app);
 
 const io = socketio(server);
+
 moment.tz.setDefault('Asia/Kolkata'); // Set default timezone to IST
 
 app.use(express.static(path.join(__dirname, 'public')));
