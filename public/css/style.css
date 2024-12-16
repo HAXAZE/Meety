@@ -42,7 +42,7 @@ img {
   position: relative;
 } */
 
-body:before {
+/* body:before {
   content: "";
   position: absolute;
   top: 0;
@@ -53,8 +53,34 @@ body:before {
   background-size: cover;
   background-position: center;
   z-index: -1;
+} */
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(45deg, #f7b7d4, #b7f7d4, #b7e4f7, #f7f7f7);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+  transition: background 0.5s ease;
 }
 
+body:hover {
+  background: linear-gradient(45deg, #f7c9d7, #d0f7c9, #c9daf7, #f7f7f7);
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 navbar .logo {
   font-size: 28px;
