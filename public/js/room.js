@@ -685,6 +685,14 @@ audioButt.addEventListener('click', () => {
     }
 })
 
+let isTextMode = false;
+
+function toggleTextMode() {
+    isTextMode = !isTextMode;
+    const textArea = document.getElementById('whiteboard-text');
+    textArea.style.display = isTextMode ? 'block' : 'none';
+}
+
 socket.on('action', (msg, sid) => {
     if (msg == 'mute') {
         console.log(sid + ' muted themself');
@@ -722,3 +730,5 @@ whiteboardButt.addEventListener('click', () => {
 cutCall.addEventListener('click', () => {
     location.href = '/';
 })
+
+
